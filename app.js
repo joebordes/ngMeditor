@@ -10,7 +10,7 @@ angular.module("ieditor").run(function ($http, meditorProvider) {
             }
         }
     );
-})
+});
 angular.module("ieditor").controller('EditorCtrl', function ($scope) {
 
     var strVar = "";
